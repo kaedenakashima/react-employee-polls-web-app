@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test#2 App component snapshot test  1`] = `
+Array [
+  <div
+    className="nav-header"
+  >
+    <h1
+      className="nav-ttl"
+    >
+      <b>
+        React Udacity App
+      </b>
+    </h1>
+  </div>,
+  <b>
+    Login
+  </b>,
+  <br />,
+  "Please select your account",
+  <br />,
+  "User: ",
+  <select
+    data-testid="select"
+    onChange={[Function]}
+    style={
+      Object {
+        "width": "180px",
+      }
+    }
+  >
+    <option
+      value=""
+    >
+      -----Please select--------
+    </option>
+    <option
+      data-testid="users"
+      value="sarahedo"
+    >
+      Sarah Edo
+    </option>
+    <option
+      data-testid="users"
+      value="tylermcginnis"
+    >
+      Tyler McGinnis
+    </option>
+    <option
+      data-testid="users"
+      value="johndoe"
+    >
+      John Doe
+    </option>
+  </select>,
+  <br />,
+  <button
+    data-testid="login"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Login
+  </button>,
+]
+`;

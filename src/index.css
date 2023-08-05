@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-ttl {
+  font-size: 16px;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin: 0 0.5em;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-display {
+  display: flex;
+  align-items: center;
+  padding: 4px 0 4px 8px;
+  border-radius: 4px;
+  background: #ededed;
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  height: 20px;
+  margin: 0.5em;
+  font-weight: bold;
+}
+
+.nav-item:hover,
+.nav-icon:hover {
+  transform: scale(1.1);
+}
+
+.vote-result:hover,
+.table-selected {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.questions-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: fit-content;
+  font-size: 12px;
+  margin: 0 10px;
+}
+
+.ttl-table {
+  width: 250px;
+}
+
+.questions-table td,
+.questions-table th {
+  padding: 8px;
+  vertical-align: middle;
+}
+
+.questions-table tr {
+  border: 1px solid black;
+}
+
+.questions-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.questions-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.cell-btn {
+  margin: 0.7em;
+}
+
+.cell-btns {
+  display: flex;
+  margin: 0.7em;
+}
+
+.cell-vote-btn {
+  border-radius: 2px;
+  border: 1px solid black;
+  font-size: 12px;
+  height: 20px;
+}
+
+.user-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.user-icon-detail {
+  width: 17px;
+  height: 20px;
+  border-radius: 50%;
+  vertical-align: bottom;
+}
+
+.user-name {
+  text-align: center;
+  margin: auto 4px;
+}
+
+.progress-bar {
+  max-width: 150px;
+}
+
+.progress-bar-container div {
+  display: grid;
+  grid-template-columns: 250px auto;
+}
+
+.progress-bar {
+  display: flex;
+}
+
+.progress-bar span {
+  font-size: 12px;
+}
+
+.progress-bar-optionOne,
+.progress-bar-optionTwo {
+  background: #343438;
+  height: 15px;
+}
