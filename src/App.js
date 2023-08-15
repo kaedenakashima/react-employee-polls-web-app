@@ -62,7 +62,8 @@ export function Create() {
       const generatedID = generateId()
       _saveQuestion({id: generatedID, author:loginedusers[0].id, optionOneText:txt1, optionTwoText:txt2})
       await dispatch(addLoginUQ({id: loginedusers[0].id, QId:generatedID}))
-      setTxt1('')&&setTxt2('')
+      setTxt1('')
+      setTxt2('')
       _getQuestions()
       return setTimeout(() => {
         navigate(generatePath('/'))
